@@ -298,7 +298,7 @@ const MicrocalibratePage: React.FC = () => {
           }}
           >
             <span style={{ fontSize: '1.2rem' }}>🚀</span>
-            <span style={{ fontSize: '1.1rem', fontWeight: '500' }}>Open Interactive Dashboard</span>
+            <span style={{ fontSize: '1.1rem', fontWeight: '500' }}>Open interactive dashboard</span>
           </div>
         </div>
         <p style={{ marginTop: '1rem', fontSize: '0.9rem', opacity: 0.7, textAlign: 'center' }}>

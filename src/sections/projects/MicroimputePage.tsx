@@ -281,7 +281,7 @@ const MicroimputePage: React.FC = () => {
           }}
           >
             <span style={{ fontSize: '1rem' }}>📚</span>
-            <span style={{ fontSize: '1rem', fontWeight: '500' }}>Open Full Documentation</span>
+            <span style={{ fontSize: '1rem', fontWeight: '500' }}>Open full documentation</span>
           </div>
         </div>
         <p style={{ marginTop: '1rem', fontSize: '0.9rem', opacity: 0.7, textAlign: 'center' }}>
@@ -426,12 +426,6 @@ const MicroimputePage: React.FC = () => {
             These improvements enable more accurate policy impact analysis for wealth taxes, asset-dependent benefit qualifications, 
             and distributional studies across wealth deciles.
           </p>
-        </div>
-        
-        <div style={{ marginTop: '1.5rem' }}>
-          <LinkButton href="https://github.com/PolicyEngine/microimpute/blob/main/paper/paper.pdf" target="_blank">
-            Read Full Paper →
-          </LinkButton>
         </div>
       </Section>
 

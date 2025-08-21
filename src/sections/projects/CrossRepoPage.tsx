@@ -323,13 +323,13 @@ const CrossRepoPage: React.FC = () => {
           <p style={{ marginBottom: '0.5rem', fontSize: '0.9rem', opacity: 0.8 }}>Related GitHub issues:</p>
           <div>
             <IssueBadge href="https://github.com/PolicyEngine/policyengine-uk/pull/1238" target="_blank">
-              policyengine_uk
+              policyengine_uk PR
             </IssueBadge>
             <IssueBadge href="https://github.com/PolicyEngine/microdf/pull/263" target="_blank">
-              microdf
+              microdf PR
             </IssueBadge>
             <IssueBadge href="https://github.com/PolicyEngine/policyengine-us-data/pull/397" target="_blank">
-              policyengine_us_data
+              policyengine_us_data PR
             </IssueBadge>
           </div>
         </div>
