@@ -145,7 +145,7 @@ const BackgroundSection: React.FC = () => {
           <PhotoContainer>
             <PhotoPlaceholder>
               <img 
-                src="/images/profile2.jpeg" 
+                src={`${process.env.PUBLIC_URL}/images/profile2.jpeg`}
                 alt="Profile 2"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
@@ -156,7 +156,7 @@ const BackgroundSection: React.FC = () => {
             </PhotoPlaceholder>
             <PhotoPlaceholder $secondary>
               <img 
-                src="/images/profile.jpg" 
+                src={`${process.env.PUBLIC_URL}/images/profile.jpg`}
                 alt="Profile"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;

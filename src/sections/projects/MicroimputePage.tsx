@@ -350,7 +350,7 @@ const MicroimputePage: React.FC = () => {
             minHeight: '300px'
           }}>
             <img 
-              src="/images/qrf-comparison-chart.png" 
+              src={`${process.env.PUBLIC_URL}/images/qrf-comparison-chart.png`}
               alt="QRF Performance Comparison"
               style={{
                 width: '100%',
@@ -380,7 +380,7 @@ const MicroimputePage: React.FC = () => {
             minHeight: '300px'
           }}>
             <img 
-              src="/images/wealth-distribution-chart.png" 
+              src={`${process.env.PUBLIC_URL}/images/wealth-distribution-chart.png`}
               alt="Wealth Distribution Results"
               style={{
                 width: '100%',

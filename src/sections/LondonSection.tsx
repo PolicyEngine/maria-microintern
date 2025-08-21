@@ -146,7 +146,7 @@ const LondonSection: React.FC = () => {
         >
           <TeamImage>
             <img 
-              src="/images/team.png" 
+              src={`${process.env.PUBLIC_URL}/images/team.png`}
               alt="PolicyEngine team"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;

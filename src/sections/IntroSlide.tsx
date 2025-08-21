@@ -83,7 +83,7 @@ const IntroSlide: React.FC = () => {
         }}
       >
         <img 
-          src="/images/logo.png" 
+          src={`${process.env.PUBLIC_URL}/images/logo.png`}
           alt="PolicyEngine logo"
           onError={(e) => {
             const target = e.target as HTMLImageElement;

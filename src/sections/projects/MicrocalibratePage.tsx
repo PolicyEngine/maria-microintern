@@ -253,7 +253,7 @@ const MicrocalibratePage: React.FC = () => {
         onClick={() => window.open('https://microcalibrate-git-maria-dashboard-updates-policy-engine.vercel.app/', '_blank')}
         >
           <img 
-            src="/images/dashboard-screenshot.png" 
+            src={`${process.env.PUBLIC_URL}/images/dashboard-screenshot.png`}
             alt="MicroCalibrate Dashboard Preview"
             style={{
               width: '100%',
