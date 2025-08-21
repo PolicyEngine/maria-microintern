@@ -106,27 +106,6 @@ const ListItem = styled.li`
   }
 `;
 
-const TechBadge = styled.span`
-  display: inline-block;
-  padding: 0.3rem 0.8rem;
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 15px;
-  margin: 0.3rem;
-  font-size: 0.9rem;
-  font-family: 'Roboto Mono', monospace;
-`;
-
-const CodeBlock = styled.pre`
-  background: rgba(0, 0, 0, 0.3);
-  padding: 1.5rem;
-  border-radius: 10px;
-  overflow-x: auto;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  margin: 1rem 0;
-`;
-
 const LinkButton = styled.a`
   display: inline-block;
   background: rgba(255, 255, 255, 0.1);

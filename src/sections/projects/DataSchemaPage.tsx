@@ -57,31 +57,6 @@ const SectionTitle = styled.h2`
   color: rgba(255, 255, 255, 0.95);
 `;
 
-const ContentGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  margin-bottom: 2rem;
-  
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
-`;
-
-const FeatureCard = styled(motion.div)`
-  background: rgba(255, 255, 255, 0.05);
-  padding: 1.5rem;
-  border-radius: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-`;
-
-const FeatureTitle = styled.h3`
-  font-size: 1.3rem;
-  margin-bottom: 0.8rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-`;
 
 const List = styled.ul`
   list-style: none;
