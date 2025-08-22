@@ -242,10 +242,8 @@ const MicroimputePage: React.FC = () => {
           borderRadius: '15px',
           overflow: 'hidden',
           border: '1px solid rgba(255, 255, 255, 0.2)',
-          background: 'rgba(0, 0, 0, 0.3)',
-          cursor: 'pointer'
+          background: 'rgba(0, 0, 0, 0.3)'
         }}
-        onClick={() => window.open('https://policyengine.github.io/microimpute/', '_blank')}
         >
           <iframe
             src="https://policyengine.github.io/microimpute/"
@@ -253,9 +251,22 @@ const MicroimputePage: React.FC = () => {
               width: '100%',
               height: '100%',
               border: 'none',
-              background: 'white'
+              background: 'white',
+              pointerEvents: 'none'
             }}
             title="MicroImpute Documentation"
+          />
+          <div 
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              cursor: 'pointer',
+              background: 'transparent'
+            }}
+            onClick={() => window.open('https://policyengine.github.io/microimpute/', '_blank')}
           />
           <div style={{
             position: 'absolute',
@@ -268,18 +279,8 @@ const MicroimputePage: React.FC = () => {
             alignItems: 'center',
             gap: '0.5rem',
             transition: 'all 0.3s ease',
-            transform: 'scale(1)',
             pointerEvents: 'none'
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.background = 'rgba(0, 0, 0, 0.9)';
-            e.currentTarget.style.transform = 'scale(1.05)';
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.background = 'rgba(0, 0, 0, 0.8)';
-            e.currentTarget.style.transform = 'scale(1)';
-          }}
-          >
+          }}>
             <span style={{ fontSize: '1rem' }}>📚</span>
             <span style={{ fontSize: '1rem', fontWeight: '500' }}>Open full documentation</span>
           </div>

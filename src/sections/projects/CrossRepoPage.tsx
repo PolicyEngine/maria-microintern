@@ -310,7 +310,7 @@ const CrossRepoPage: React.FC = () => {
         </p>
         <List>
           <ListItem>
-            Fixing the microdataframe sum function to respect the `axis` argument in microdf
+            Fixing the microdataframe sum function to respect the axis argument in microdf
           </ListItem>
           <ListItem>
             Making all files and directories in the UK repo be lower case
