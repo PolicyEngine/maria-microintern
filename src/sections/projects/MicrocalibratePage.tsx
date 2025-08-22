@@ -389,11 +389,6 @@ const MicrocalibratePage: React.FC = () => {
         <p style={{ lineHeight: 1.8, marginBottom: '1rem', fontWeight: 500 }}>
           I think the repo is in a good place to be used by other PolicyEngine repos, but there are always improvements to be made and new features that can be added. Keeping an eye out for user suggestions and new issues both in L0 and Microcalibrate never hurts!
         </p>
-        <List>
-          <ListItem>
-            I still have a PR open to add L0 hyperparameter tuning implemented with Optuna and leveraging holding out targets when training. Don't forget to check it out!
-          </ListItem>
-        </List>
         <div style={{ marginTop: '1.5rem' }}>
           <p style={{ marginBottom: '0.5rem', fontSize: '0.9rem', opacity: 0.8 }}>Related GitHub issues:</p>
           <div>
@@ -402,9 +397,6 @@ const MicrocalibratePage: React.FC = () => {
             </IssueBadge>
             <IssueBadge href="https://github.com/PolicyEngine/L0/issues" target="_blank">
               l0 issues
-            </IssueBadge>
-            <IssueBadge href="https://github.com/PolicyEngine/microcalibrate/pull/78" target="_blank">
-              l0 hyperparameter tuning PR
             </IssueBadge>
           </div>
         </div>
